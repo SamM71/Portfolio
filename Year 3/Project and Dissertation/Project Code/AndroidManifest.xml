@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scroller">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Scroller">
+        <activity
+            android:name=".OptionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".content_buttons"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_buttons"
+            android:theme="@style/Theme.Scroller.NoActionBar" />
+        <activity
+            android:name=".PS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CemuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PSClassicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SNESClassicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NESCLassicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NSO_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".VisualBoyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SNES9X"
+            android:exported="false" />
+        <activity
+            android:name=".RetroPieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RedreamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MupenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PPSSPP"
+            android:exported="false" />
+        <activity
+            android:name=".PCSX2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RetroArchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpenEmuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MesenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MednafenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MAME_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KegaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Desmume"
+            android:exported="false" />
+        <activity
+            android:name=".DolphinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Scroller.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

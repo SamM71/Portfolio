@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Scroller</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="header">Survey</string>
+
+    <string name="question_one">What is your preferred method of input?</string>
+    <string name="question_two">What is your ideal price range? (in GBP)</string>
+    <string name="question_three">What is your price limit? (in GBP) Select closest.</string>
+    <string name="question_four">Are there any specific consoles or console families that you want to play through emulation?</string>
+    <string name="question_five">Which of these platforms do you already own (and would be able to use for emulation)?</string>
+    <string name="question_six">What would be your preferred platform to play games on?</string>
+
+    <string name="agreement">How much do you agree with the following statements?</string>
+    <string name="statement_one">It is important that I have an expandable library.</string>
+    <string name="statement_two">It is important that I use an authentic controller or method of input.</string>
+    <string name="statement_three">It is important that I that I can take my games with me and play them anywhere.</string>
+    <string name="statement_four">It is important that I use a completely legal method.</string>
+    <string name="statement_five">I would rather have a smaller pre-loaded library than a large one that I have to acquire myself.</string>
+    <string name="statement_six">It is important that the method is easy to setup and use.</string>
+
+    <!--Question One-->
+    <string name="controller">Controller</string>
+    <string name="mkb">Mouse and keyboard</string>
+    <string name="touch">Touchscreen</string>
+    <string name="variety">A variety</string>
+    <string name="other">Other</string>
+
+    <!--Question Two-->
+    <string name="range_one">0–9.99</string>
+    <string name="range_two">10–29.99</string>
+    <string name="range_three">30–49.99</string>
+    <string name="range_four">50–99.99</string>
+    <string name="range_five">100–199.99</string>
+    <string name="range_six">200–399.99</string>
+    <string name="range_seven">400+</string>
+
+    <!--Question Three-->
+    <string name="max_one">0</string>
+    <string name="max_two">10</string>
+    <string name="max_three">50</string>
+    <string name="max_four">100</string>
+    <string name="max_five">200</string>
+    <string name="max_six">>200</string>
+
+    <!--Misc-->
+    <string name="nintendo">Nintendo Home Consoles</string>
+    <string name="nintendo_h">Nintendo Handhelds</string>
+    <string name="playstation">PlayStation</string>
+
+
+    <!--Question Four-->
+    <string name="nes">Nintendo Entertainment System</string>
+    <string name="snes">Super Nintendo Entertainment System</string>
+    <string name="n64">Nintendo 64</string>
+    <string name="gamecube">Nintendo GameCube</string>
+    <string name="wii">Nintendo Wii</string>
+    <string name="gameboy">Game Boy / GBC / GBA</string>
+    <string name="gb">Game Boy</string>
+    <string name="gbc">Game Boy Color</string>
+    <string name="gba">Game Boy Advance</string>
+    <string name="ds">Nintendo DS</string>
+    <string name="three_ds">Nintendo 3DS</string>
+    <string name="ps1">PlayStation</string>
+    <string name="ps2">PlayStation 2</string>
+    <string name="psp">PlayStation Portable</string>
+    <string name="xbox">Xbox</string>
+    <string name="sega">Sega</string>
+    <string name="atari">Atari</string>
+    <string name="arcade">Arcade Games</string>
+
+
+    <!--Question Five-->
+    <string name="windows">Windows</string>
+    <string name="mac">macOS</string>
+    <string name="linux">Linux</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="nswitch">Nintendo Switch</string>
+    <string name="xboxosx">Xbox One (or newer version)</string>
+    <string name="ps45">PlayStation 4/5</string>
+
+    <!--Question Six-->
+    <string name="console">A console / dedicated platfrom</string>
+
+    <!--Statements-->
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="s_agree">Strongly agree</string>
+    <string name="s_disagree">Strongly disagree</string>
+    <string name="neither">Neither agree nor disagree</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+
+    <string name="submit">SUBMIT</string>
+    <string name="title_activity_de_smu_me">DeSmuME</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="title_activity_buttons">ButtonsActivity</string>
+
+    <!--Emulators-->
+    <string name="cemu">Cemu</string>
+    <string name="desmume">DeSmuME</string>
+    <string name="dolphin">Dolphin</string>
+    <string name="kega">Kega Fusion</string>
+    <string name="mame">MAME</string>
+    <string name="mednafen">Mednafen</string>
+    <string name="mesen">Mesen</string>
+    <string name="mupen">Mupen64Plus</string>
+    <string name="nesClassic">NES Classic</string>
+    <string name="nso">Nintendo Switch Online</string>
+    <string name="openEmu">OpenEmu</string>
+    <string name="pcsx2">PCSX2</string>
+    <string name="ppsspp">PPSSPP</string>
+    <string name="ps4">PlayStation Now</string>
+    <string name="psClassic">PlaySation Classic</string>
+    <string name="redream">Redream</string>
+    <string name="retroArch">RetroArch</string>
+    <string name="retroPie">RetroPie</string>
+    <string name="snes9x">SNES9X</string>
+    <string name="snesClassic">SNES Classic</string>
+    <string name="visualBoy">VisualBoyAdvance</string>
+    <string name="xboxone">Xbox One</string>
+
+    <string name="supported">Supported system(s): </string>
+    <string name="platforms">Platform(s): </string>
+    <string name="cost">Cost: </string>
+    <string name="Free">Free</string>
+    <string name="library">Library: </string>
+    <string name="expandable">Expandable</string>
+    <string name="fixed">Fixed</string>
+    <string name="url">URL: </string>
+    <string name="otherInfo">Other Info: </string>
+
+    <string name="options">View Other Options</string>
+    <string name="back">Back</string>
+    <string name="blank"> </string>
+
+    <!--URLs </a>-->
+    <string name="cemuURL"><a href="https://cemu.info/" />https://cemu.info/</string>
+    <string name="desmumeURL">http://desmume.org/</string>
+    <string name="dolphinURL">https://dolphin-emu.org/</string>
+    <string name="kegaURL">https://segaretro.org/Kega_Fusion</string>
+    <string name="mameURL">https://www.mamedev.org/</string>
+    <string name="mednafenURL">https://mednafen.github.io/</string>
+    <string name="mesenURL">https://www.mesen.ca/</string>
+    <string name="mupenURL">https://mupen64plus.org/</string>
+    <string name="nesClassicURL">NES https://www.nintendo.com/nes-classic/</string>
+    <string name="nsoURL">https://www.nintendo.co.uk/Nintendo-Switch-Online/Nintendo-Switch-Online-1183143.html</string>
+    <string name="openEmuURL">https://openemu.org/</string>
+    <string name="pcsx2URL">https://pcsx2.net/</string>
+    <string name="ppssppURL">https://www.ppsspp.org/</string>
+    <string name="ps4URL">https://www.playstation.com/en-gb/ps-now/</string>
+    <string name="psClassicURL">https://www.amazon.co.uk/PlayStation-9980094-Sony-Classic-Console/dp/B071G84NHX</string>
+    <string name="redreamURL">https://redream.io/</string>
+    <string name="retroArchURL">https://www.retroarch.com/</string>
+    <string name="retroPieURL">https://retropie.org.uk/</string>
+    <string name="snes9xURL">https://www.snes9x.com/</string>
+    <string name="snesClassicURL">https://www.nintendo.com/super-nes-classic/</string>
+    <string name="visualBoyURL">https://sourceforge.net/projects/vba/</string>
+    <string name="xboxoneURL">https://www.xbox.com/en-US/</string>
+
+
+</resources>

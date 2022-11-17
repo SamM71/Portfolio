@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cemu"
+                    android:onClick="cemuHandler"/>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desmume"
+                    android:onClick="desmumeHandler"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dolphin"
+                    android:onClick="dolphinHandler"/>
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kega"
+                    android:onClick="kegaHandler" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mame"
+                    android:onClick="mameHandler"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mednafen"
+                    android:onClick="mednafenHandler" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mesen"
+                    android:onClick="mesenHandler"/>
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mupen"
+                    android:onClick="mupenHandler"/>
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nesClassic"
+                    android:onClick="nesClassicHandler"/>
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nso"
+                    android:onClick="nsoHandler"/>
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/openEmu"
+                    android:onClick="openEmuHandler" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pcsx2"
+                    android:onClick="pcsx2Handler"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ppsspp"
+                    android:onClick="ppssppHandler"/>
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ps4"
+                    android:onClick="ps4Handler" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/psClassic"
+                    android:onClick="psClassicHandler"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/redream"
+                    android:onClick="redreamHandler"/>
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/retroArch"
+                    android:onClick="retroArchHandler" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/retroPie"
+                    android:onClick="retroPieHandler"/>
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/snes9x"
+                    android:onClick="snes9xHandler"/>
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/snesClassic"
+                    android:onClick="snesClassicHandler"/>
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/visualBoy"
+                    android:onClick="visualBoyHandler"/>
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xboxone"
+                    android:onClick="xboxHandler"/>
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:onClick="backHandler"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
